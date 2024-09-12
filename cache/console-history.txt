@@ -1,0 +1,40 @@
+// Then try to perform by yourself
+await Raffle.checkUpkeep([]);
+// This line must return true
+const Raffle = await ethers.getContract('Raffle', deployer);
+const deployer = (await ethers.getSigners())[0];
+await deployments.fixture(['all']);
+const { ethers, deployments } = require('hardhat');
+await Raffle.performUpkeep([]);
+// Then try to perform by yourself
+await Raffle.checkUpkeep([]);
+// This line must return true
+const Raffle = await ethers.getContract('Raffle', deployer);
+const deployer = (await ethers.getSigners())[0];
+await deployments.fixture(['all']);
+'const { ethers, deployments } = require('hardhat');
+await Raffle.checkUpkeep([]);
+// This line must return true
+const Raffle = await ethers.getContract('Raffle', deployer);
+const deployer = (await ethers.getSigners())[0];
+await deployments.fixture('all');
+const { ethers, deployments } = require('hardhat');
+await Raffle.checkUpkeep([]);
+const Raffle = await ethers.getContract('Raffle', deployer);
+await deployments.fixture('all');
+const { ethers, deployments } = require('hardhat');
+await Raffle.performUpkeep([]);
+// Then try to perform by yourself
+await Raffle.checkUpkeep([]);
+// This line must return true
+const Raffle = await ethers.getContract('Raffle', deployer);
+const deployer = (await ethers.getSigners())[0];
+await deployments.fixture('all');
+const { ethers, deployments } = require('hardhat');
+// Then try to perform by yourself
+await Raffle.checkUpkeep([]);
+// This line must return true
+const Raffle = await ethers.getContract('Raffle', deployer);
+const deployer = (await ethers.getSigners())[0];
+await deployments.fixture('all');
+const { ethers, deployments } = require('hardhat');
